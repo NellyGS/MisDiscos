@@ -8,12 +8,36 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { MiAPage } from '../pages/mi-a/mi-a';
+import { DivPage } from '../pages/div/div';
+import { MdnOPage } from '../pages/mdn-o/mdn-o';
+import { AviPage } from '../pages/avi/avi';
+import { Bio1Page } from '../pages/bio1/bio1';
+import { BioedPage } from '../pages/bioed/bioed';
+import { BiotcPage } from '../pages/biotc/biotc';
+import { BioavPage } from '../pages/bioav/bioav';
+import { MitAlPage } from '../pages/mit-al/mit-al';
+import { DivLPage } from '../pages/div-l/div-l';
+import { MdnOlPage } from '../pages/mdn-ol/mdn-ol';
+import { AviLPage } from '../pages/avi-l/avi-l';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    MiAPage,
+    DivPage,
+    MdnOPage, 
+    AviPage,
+    Bio1Page, 
+    BioedPage,
+    BiotcPage,
+    BioavPage,
+    MitAlPage,
+    DivLPage,
+    MdnOlPage, 
+    AviLPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +47,20 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    MiAPage,
+    DivPage,
+    MdnOPage,
+    AviPage,
+    Bio1Page,
+    BioedPage,
+    BiotcPage,
+    BioavPage,
+    MitAlPage,
+    DivLPage,
+    MdnOlPage, 
+    AviLPage
+
   ],
   providers: [
     StatusBar,
